@@ -19,6 +19,8 @@
     <div class="">${item.title}</div>
     </div>
     <div class="Projects_info">${item.project_info}</div> 
+    <div class="project_links">
+    <button class="btn btn-info"><a class="link" href="${item.link}" target="_blank">View Project</a></button></div>
     <div class="skills_used">${item.skills}</div>
     
   </div>
